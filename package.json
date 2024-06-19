@@ -1,0 +1,22 @@
+{
+  "name": "bedrock-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.600.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.600.0",
+    "tsc": "^2.0.4"
+  }
+}
